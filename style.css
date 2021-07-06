@@ -1,0 +1,44 @@
+/** Removes the basic styling **/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(120deg, #E2C35D, #D88771); 
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh; 
+}
+
+header {
+  font-size: 1.5rem; 
+}
+
+header, form {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input, form button {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border: none;
+  background: white;
+}
+
+form button {
+  color: #D88771;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background: #D88771;
+  color: white;
+}
+
+
