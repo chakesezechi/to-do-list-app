@@ -51,6 +51,6 @@ function deleteCheck(e) {
   // Delete To Do
   if(item.classList[0] === "trash-btn"){
     const todo = item.parentElement;
-    item.remove();
+    todo.remove();
   }
 }
